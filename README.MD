@@ -10,10 +10,10 @@ Mastermind supports the `-show` flag to print the answer to the console before t
 ## Compilation and Runtime
 To compile the game, type:
 ```
- $ gcc game.c initializer.c ui.c mastermind.c -o mastermind
+ $ make
 ```
 
 After compiling, run the game by typing:
 ```
-./mastermind
+./a.out
 ```
