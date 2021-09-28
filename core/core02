@@ -1,0 +1,3 @@
+This test verifies that your solution detects and reports an unexpected end of
+file (EOF) when attempting to read the maximum letter. See the assignment for
+the details on what is required when encountering an unexpected EOF.

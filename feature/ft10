@@ -1,0 +1,21 @@
+Tests Mastermind's handling of "extra" input entered after each good input for
+seed, maximum letter, number of positions, number of guesses, and the guesses
+themselves to verify that any extra stuff entered by the user is being skipped
+over. Suggestions for how to do this are found in the assignment.
+
+For example:
+   
+   Enter the seed for random number generation: 2 extra stuff
+   Enter the maximum letter for the game (A-Z): W123456...whatever!
+   Enter the number of positions for the game (1-8): 6 abc 123
+   Enter the number of guesses allowed for the game: 10XYZ 7.8 hmmmmm
+
+   Enter guess 1: AMBAAAxxxxxxxxxxxxxxxxxxxxxxxxx 123
+   Nope, 0 exact guesses and 1 inexact guesses
+
+   Enter guess 2: TTTTTTTTTTTTTTTTTTTTTTTTT
+   Nope, 1 exact guesses and 0 inexact guesses
+
+   Enter guess 3: KAVTPO987654321 extra stuff!
+
+   Wow, you won in 3 guesses - well done!

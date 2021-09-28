@@ -1,0 +1,10 @@
+Tests Mastermind's handling of invalid seed values - specifically non-numeric
+values. The reference solution expects int values for the seed and you will
+not be tested with values outside the range of an int.
+
+Note:
+
+   1) Even though srand's argument is unsigned C allows you to pass negative
+      values - they are simply interpreted as large unsigned values. So, don't
+      over-think this one - simply attempt to read the seed using the %d flag
+      and assume it does not exceed the range of an int.

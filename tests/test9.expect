@@ -1,0 +1,8 @@
+Enter the seed for random number generation: Seed must be an integer value, please try again
+Enter the seed for random number generation: Enter the maximum letter for the game (A-Z): The letter must be an uppercase A-Z, please try again
+Enter the maximum letter for the game (A-Z): Enter the number of positions for the game (1-8): The number of positions must be 1-8, please try again
+Enter the number of positions for the game (1-8): Enter the number of guesses allowed for the game: The number of guesses must be a positive integer, please try again
+Enter the number of guesses allowed for the game: The number of guesses must be a positive integer, please try again
+Enter the number of guesses allowed for the game: 
+Enter guess 1: 
+Wow, you won in 1 guesses - well done!

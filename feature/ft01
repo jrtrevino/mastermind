@@ -1,0 +1,6 @@
+This test invokes Mastermind with an incorrect/unexpected argument to
+verify the following:
+
+   1. The usage message is printed to stderr.
+   2. The usage message text is exactly correct.
+   3. Mastermind exits with EXIT_FAILURE

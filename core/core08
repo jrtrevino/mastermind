@@ -1,0 +1,4 @@
+The test plays Mastermind with all valid inputs and wins before running
+out of turns but after the first guess and before the last guess.
+
+Note: The game board may or may not have duplicate letters in it.

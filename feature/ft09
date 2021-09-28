@@ -1,0 +1,28 @@
+Tests Mastermind's handling of guesses that contain whitespace before the
+first letter and/or between letters.
+
+For example:
+   
+   Enter the seed for random number generation: 2
+   Enter the maximum letter for the game (A-Z): W
+   Enter the number of positions for the game (1-8): 6
+   Enter the number of guesses allowed for the game: 10
+
+   Enter guess 1:                 A
+        M                                  B
+   AAA
+   Nope, 0 exact guesses and 1 inexact guesses
+
+   Enter guess 2: T T T T T T
+   Nope, 1 exact guesses and 0 inexact guesses
+
+   Enter guess 3: K                 A
+   V
+                         TP
+
+
+
+  O
+
+  Wow, you won in 3 guesses - well done!
+
