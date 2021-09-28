@@ -8,8 +8,12 @@ If the user doesn't guess the string in the right amount of guesses, the game is
 Mastermind supports the `-show` flag to print the answer to the console before the game starts.
 
 ## running
-To run the game, type:
+To compile the game, type:
 ```
-./a.out
+ $ gcc –Wall game.c initializer.c ui.c mastermind.c -o mastermind
+```
 
+After compiling, run the game by typing:
+```
+./mastermind
 ```
