@@ -15,5 +15,5 @@ To compile the game, type:
 
 After compiling, run the game by typing:
 ```
-./a.out
+$ ./a.out
 ```
